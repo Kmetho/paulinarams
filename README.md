@@ -7,6 +7,12 @@ This is my first real deal website and first time using github pages.
 And it's still in process, Paulina just wanted to see how it looks and here we are. 
 Thank you for appreciation.
 
+Thank you, guys, for your beautiful typefaces ♡ 
+
+Clémence Fontaine, WonderType → https://www.clemencefontaine.fr/page/wonder.html
+
+Christina Janus and Desmond Wong, AUTHENTIC Sans → https://authentic.website/sans.html
+
 ⣿⣿⣿⣿⣿⡇⠤⠄⠳⣮⡻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡎⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⣿⣿⣿⣿⣿⣷⠀⠀⠀⠀⠇⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣛⣿⣿⣿⣶⡄⠀⠀⠀⢀⣠⡤⠶⠚⢿⡦
 ⣿⣿⣿⣿⣿⣿⡆⠀⠀⠀⠀⠀⠈⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⣿⣋⢙⠉⣀⠀⢀⡴⢛⡥⠀⠀⠀⠀⢳
