@@ -1,0 +1,163 @@
+/* general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  overflow: hidden;
+}
+
+img {
+  pointer-events: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: #111bff;
+  text-decoration: none;
+}
+
+.home-bg {
+  background-image: url(../images/home/bg.png);
+}
+.about-bg {
+  background-image: url(../images/about/bg.png);
+}
+body {
+  position: relative;
+  background-size: cover;
+  background-position: 0;
+  height: 100vh;
+  width: 100vw;
+  color: #000;
+  font-family: "AuthenticSans90", sans-serif;
+}
+
+/* images */
+.png {
+  position: absolute;
+}
+.flower {
+  left: 10%;
+  height: 100vh;
+  z-index: 2;
+}
+.shape {
+  width: 350px;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+.pr {
+  height: 100vh;
+  z-index: 2;
+}
+
+.box {
+  position: fixed;
+}
+.name-box {
+  top: 20px;
+  left: 30px;
+  display: grid;
+  grid-template-areas:
+    "𓆏 𓆏 0"
+    "𖧷 ⛆ 0"
+    "𓂀 𓂀 𓂀";
+}
+.work-box {
+  top: 30px;
+  right: 30px;
+}
+.about-box {
+  bottom: 30px;
+  left: 30px;
+}
+.socials-box {
+  bottom: 45px;
+  right: 30px;
+}
+.text-box {
+  font-size: 30px;
+  top: 200px;
+  right: 30px;
+  max-width: 700px;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+
+h1 {
+  font-family: "WonderType";
+  font-size: 48px;
+}
+.first {
+  grid-area: 𓆏;
+}
+.last {
+  grid-area: 𖧷;
+}
+.smol {
+  grid-area: ⛆;
+  width: 50px;
+}
+.whoareyou {
+  max-width: 340px;
+  grid-area: 𓂀;
+  font-size: 20px;
+}
+
+/* work and about clicks */
+.click {
+  color: #000;
+  font-size: 36px;
+}
+
+.work-click {
+  border: #000 solid 2px;
+  border-radius: 100%;
+  padding: 0 30px 5px;
+  transition: transform 1s, border-color 1.25s, background-color 1.15s,
+    color 1.5s;
+}
+.work-click:hover {
+  color: #dcd6d7;
+  border-color: #111bff;
+  background-color: #111bff;
+  transform: rotateY(360deg);
+}
+
+.about-click {
+  transition: color 0.25s;
+}
+.about-click:hover {
+  color: #111bff;
+}
+
+/* icons */
+i {
+  color: #000;
+  transition: 0.25s;
+}
+i:hover {
+  color: #111bff;
+}
+
+/* for ripples */
+.error {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
