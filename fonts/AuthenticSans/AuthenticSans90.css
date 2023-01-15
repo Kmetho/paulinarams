@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'authentic_sanscondensed_90';
-    src: url('/authenticsans-condensed-90-webfont.woff2') format('woff2'),
-         url('/authenticsans-condensed-90-webfont.woff') format('woff');
+    src: url('./fonts/AuthenticSans/authenticsans-condensed-90-webfont.woff2') format('woff2'),
+         url('./fonts/AuthenticSans/authenticsans-condensed-90-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
