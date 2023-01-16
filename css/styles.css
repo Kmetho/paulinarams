@@ -43,11 +43,11 @@ body {
 /* images */
 .png {
   position: absolute;
+  z-index: 2;
 }
 .flower {
   left: 10%;
   height: 100vh;
-  z-index: 2;
 }
 .shape {
   width: 350px;
@@ -60,11 +60,11 @@ body {
 }
 .pr {
   height: 100vh;
-  z-index: 2;
 }
 
 .box {
   position: fixed;
+  z-index: 3;
 }
 .name-box {
   top: 20px;
