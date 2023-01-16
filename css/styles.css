@@ -37,7 +37,7 @@ body {
   height: 100vh;
   width: 100vw;
   color: #000;
-  font-family: "AuthenticSans90", sans-serif;
+  font-family: "authentic_sanscondensed_90", sans-serif;
 }
 
 /* images */
@@ -64,7 +64,7 @@ body {
 
 .box {
   position: fixed;
-  z-index: 3;
+  z-index: 10;
 }
 .name-box {
   top: 20px;
@@ -99,7 +99,7 @@ body {
 }
 
 h1 {
-  font-family: "WonderType";
+  font-family: "wondertyperegular";
   font-size: 48px;
 }
 .first {
