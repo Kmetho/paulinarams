@@ -137,6 +137,9 @@ h1 {
   background-color: #111bff;
   transform: rotateY(360deg);
 }
+.workabout:hover {
+  color: #fff;
+}
 
 .about-click {
   transition: color 0.25s;
