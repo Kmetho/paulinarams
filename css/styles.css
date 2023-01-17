@@ -157,6 +157,19 @@ i:hover {
   color: #111bff;
 }
 
+@media only screen and (max-width: 620px) {
+  .flower {
+    display: none;
+  }
+  .work-box {
+    bottom: 30px;
+  }
+  .click {
+    border: none;
+  }
+  
+}
+
 /* for ripples */
 .error {
   display: none;
