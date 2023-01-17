@@ -3,3 +3,4 @@ function scrn() {
     document.querySelector("#chrome-flower").classList.add("hide");
   }
 }
+scrn();
