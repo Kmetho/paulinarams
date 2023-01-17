@@ -1,11 +1,15 @@
 @media screen and (max-width: 700px) {
-  .flower, .pr {
+  .flower,
+  .pr {
     display: none;
   }
   .container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+  }
+  .box {
+    position: relative;
   }
 }
 /* general */
