@@ -9,7 +9,6 @@ html {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
-  overflow: hidden;
 }
 
 img {
@@ -38,6 +37,7 @@ body {
   width: 100vw;
   color: #000;
   font-family: "authentic_sanscondensed_90", sans-serif;
+  overflow: hidden;
 }
 
 /* images */
@@ -155,6 +155,10 @@ i {
 }
 i:hover {
   color: #111bff;
+}
+
+.hide {
+  display: none;
 }
 
 /* for ripples */
