@@ -17,9 +17,6 @@
   .aboutpage > .name-box {
     grid-area: 1/1/2/2;
   }
-  .aboutpage > .work-box {
-    grid-area: 1/2/2/3;
-  }
   .aboutpage > .text-box {
     grid-area: 2/1/3/3;
     padding: 50px 30px 25px;
@@ -140,10 +137,6 @@ h1 {
   font-size: 20px;
 }
 
-.work-box {
-  top: 30px;
-  right: 30px;
-}
 .about-box {
   bottom: 30px;
   left: 30px;
@@ -175,27 +168,28 @@ h1 {
   grid-area: 5/1/6/2;
 }
 
-/* work and about clicks */
-.click {
-  color: #000;
-  font-size: 36px;
+.work-box {
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }
-
 .work-click {
   border: #000 solid 2px;
   border-radius: 100%;
   padding: 0 30px 5px;
-  transition: transform 1s, border-color 1.25s, background-color 1.15s,
-    color 1.5s;
+  transition: all 1s ease-in;
 }
-.work-click:hover {
-  color: #dcd6d7;
-  border-color: #111bff;
-  background-color: #111bff;
-  transform: rotateY(360deg);
+.hovered {
+  color: #dcd6d7 !important;
+  border-color: #111bff !important;
+  background-color: #111bff !important;
+  transform: rotateY(360deg) !important;
 }
-.workabout:hover {
-  color: #fff;
+
+/* work and about clicks */
+.click {
+  color: #000;
+  font-size: 36px;
 }
 
 .about-click {

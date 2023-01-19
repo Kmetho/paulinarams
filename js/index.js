@@ -1,18 +1,14 @@
-let wzium = document.getElementById('wzium');
-let incrX = -1;
-let incrY = 1;
+const area = document.querySelector(".homepage");
+const wzium = document.querySelector("#wzium");
 
-function letsGO() {
 
+wzium
+
+
+const spin = document.querySelector(".work-click");
+spin.onmouseenter = function () {
+  this.classList.add("hovered");
 };
-
-function handleCollision() {
-
+spin.onmouseleave = function () {
+  this.classList.remove("hovered");
 };
-
-function move() {
-wzium.style.top = wzium.offsetTop + incrY;
-wzium.style.left = wzium.offsetLeft + incrX;
-};
-
-letsGO();
