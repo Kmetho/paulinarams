@@ -18,6 +18,10 @@ wzium.style.positon = "absolute";
 wzium.style.right = w.x + "px";
 wzium.style.top = w.y + "px";
 
+window.onload = (event) => {
+  w.ani = requestAnimationFrame(mover);
+};
+
 wzium.addEventListener("mouseenter", () => {
   if (!w.isMoving) {
     w.ani = requestAnimationFrame(mover);
