@@ -1,5 +1,4 @@
 const area = document.querySelector(".homepage");
-const spin = document.querySelector(".work-click");
 const wzium = document.querySelector("#wzium");
 
 const w = {
@@ -23,11 +22,9 @@ wzium.addEventListener("mouseenter", () => {
   if (!w.isMoving) {
     w.ani = requestAnimationFrame(mover);
     w.isMoving = true;
-    spin.classList.remove("hovered");
   } else {
     cancelAnimationFrame(w.ani);
     w.isMoving = false;
-    spin.classList.add("hovered");
   }
 });
 

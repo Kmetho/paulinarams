@@ -178,17 +178,11 @@ h1 {
 .work-click {
   border: #111bff solid 2px;
   background-color: #111bff;
-  color: #fff;
+  color: #fff !important;
   border-radius: 100%;
   padding: 0 30px 5px;
-  transition: all 1s ease-in;
 }
-.hovered {
-  /* color: #fff !important; */
-  /* border-color: #111bff !important; */
-  /* background-color: #111bff !important; */
-  transform: rotateY(360deg) !important;
-}
+
 
 /* work and about clicks */
 .click {
