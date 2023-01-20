@@ -168,11 +168,12 @@ h1 {
   grid-area: 5/1/6/2;
 }
 
-/* .work-box {
+.work-box {
   position: absolute;
   top: 30px;
   right: 30px;
-} */
+  z-index: 10;
+}
 .work-click {
   border: #000 solid 2px;
   border-radius: 100%;
