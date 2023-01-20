@@ -11,6 +11,9 @@ const w = {
   isMoving: false,
 };
 
+let areaWidth = window.innerWidth;
+let areaHeight = window.innerHeight;
+
 wzium.style.positon = "absolute";
 wzium.style.right = w.x + "px";
 wzium.style.top = w.y + "px";
@@ -32,7 +35,13 @@ function mover() {
   w.y += w.dy;
   wzium.style.right = w.x + "px";
   wzium.style.top = w.y + "px";
-  if (w.isMoving) {
-    w.ani = requestAnimationFrame(mover);
+
+  if (w.y > areaHeight - 53 || w.y < 0) {
+    w.dy *= -1;
   }
+  if (w.x > areaWidth - 129.483 || w.x < 0) {
+    w.dx *= -1;
+  }
+
+  w.isMoving & (w.ani = requestAnimationFrame(mover));
 }
