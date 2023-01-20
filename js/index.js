@@ -8,7 +8,7 @@ const w = {
   dx: 1,
   dy: 1,
   ani: {},
-  isMoving: false,
+  isMoving: true,
 };
 
 let areaWidth = window.innerWidth;
