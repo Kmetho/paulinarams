@@ -19,13 +19,12 @@ wzium.style.top = w.y + "px";
 w.ani = requestAnimationFrame(mover);
 
 wzium.addEventListener("mouseenter", () => {
-  if (!w.isMoving) {
-    w.ani = requestAnimationFrame(mover);
-    w.isMoving = true;
-  } else {
-    cancelAnimationFrame(w.ani);
-    w.isMoving = false;
-  }
+  cancelAnimationFrame(w.ani);
+  w.isMoving = false;
+});
+wzium.addEventListener("mouseleave", () => {
+  w.ani = requestAnimationFrame(mover);
+  w.isMoving = true;
 });
 
 function mover() {
