@@ -5,6 +5,7 @@
   }
   .about-bg {
     overflow-y: auto;
+    height: 100%;
   }
   .container {
     display: grid;
@@ -36,6 +37,7 @@
     right: auto;
   }
 }
+
 /* general */
 * {
   margin: 0;
