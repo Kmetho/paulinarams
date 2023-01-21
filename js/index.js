@@ -4,8 +4,8 @@ const wzium = document.querySelector("#wzium");
 const w = {
   x: 30,
   y: 30,
-  dx: 0.5,
-  dy: 0.5,
+  dx: 0.75,
+  dy: 0.75,
   ani: {},
   isMoving: true,
 };
@@ -49,3 +49,5 @@ document.addEventListener("mousemove", (e) => {
     "top: " + e.pageY + "px; left: " + e.pageX + "px;"
   );
 });
+
+const music = document.querySelector(".volume");

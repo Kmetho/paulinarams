@@ -89,7 +89,7 @@ body {
   width: 20px;
   height: 20px;
   border-radius: 0 50% 50% 50%;
-  box-shadow: 5px 5px 5px #fff;
+  box-shadow: 5px 5px 5px 5px #fff;
   background-color: #111bff;
   opacity: 75%;
   z-index: 5;
