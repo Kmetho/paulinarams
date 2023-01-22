@@ -49,5 +49,3 @@ document.addEventListener("mousemove", (e) => {
     "top: " + e.pageY + "px; left: " + e.pageX + "px;"
   );
 });
-
-const music = document.querySelector(".volume");
