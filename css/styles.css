@@ -15,6 +15,9 @@
     margin: 50px 30px 25px;
     font-size: 20px;
   }
+  .about-click {
+    font-size: 20px;
+  }
 }
 
 /* general */
@@ -175,7 +178,7 @@ h1 {
   background-color: #111bff;
   color: #fff !important;
   border-radius: 100%;
-  padding: 0 30px 5px;
+  padding: 0 30px 2.75px;
 }
 .click {
   color: #000;
