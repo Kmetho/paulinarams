@@ -15,8 +15,8 @@
     margin: 50px 30px 25px;
     font-size: 20px;
   }
-  .about-click {
-    font-size: 20px;
+  em {
+    font-size: 30px;
   }
 }
 
