@@ -22,7 +22,7 @@
     font-size: 20px;
     row-gap: 20px;
   }
-  em {
+  em, .click {
     font-size: 30px;
   }
 }
