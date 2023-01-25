@@ -1,4 +1,10 @@
 @media screen and (max-width: 810px) {
+  .home-bg {
+    background-image: url(../images/home/bg-small.png);
+  }
+  .about-bg {
+    background-image: url(../images/about/bg-small.png);
+  }
   .cursor,
   .flower,
   .pr {
