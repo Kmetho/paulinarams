@@ -13,6 +13,10 @@ Clémence Fontaine, WonderType → https://www.clemencefontaine.fr/page/wonder.h
 
 Christina Janus and Desmond Wong, AUTHENTIC Sans → https://authentic.website/sans.html
 
+And thank you for beautiful ripples effect ♡ 
+
+https://github.com/sirxemic/jquery.ripples
+
 ⣿⣿⣿⣿⣿⡇⠤⠄⠳⣮⡻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡎⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⣿⣿⣿⣿⣿⣷⠀⠀⠀⠀⠇⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣛⣿⣿⣿⣶⡄⠀⠀⠀⢀⣠⡤⠶⠚⢿⡦
 ⣿⣿⣿⣿⣿⣿⡆⠀⠀⠀⠀⠀⠈⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⣿⣋⢙⠉⣀⠀⢀⡴⢛⡥⠀⠀⠀⠀⢳
