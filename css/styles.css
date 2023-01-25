@@ -58,7 +58,7 @@ a:active {
   background-image: url(../images/home/bg.png);
 }
 .about-bg {
-  background-image: url(../images/about/bg.png);
+  background-image: url(../images/about/bg.png) !important;
 }
 body {
   overflow: hidden;
