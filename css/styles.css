@@ -1,53 +1,3 @@
-@media screen and (max-width: 810px) {
-  .home-bg {
-    background-image: url(../images/home/bg-small.png);
-  }
-  .about-bg {
-    background-image: url(../images/about/bg-small.png) !important;
-  }
-  .cursor,
-  .flower,
-  .pr {
-    display: none;
-  }
-  .first,
-  .last {
-    font-size: 30px;
-  }
-  .smol {
-    width: 35px !important;
-  }
-  .aboutpage > .text-box {
-    margin: 50px 30px 0;
-    row-gap: 20px;
-    font-size: 25px;
-    /* height: calc(100vh - 60%); */
-  }
-  em,
-  .click {
-    font-size: 25px;
-  }
-}
-@media screen and (max-height: 690px) {
-  .first,
-  .last {
-    font-size: 25px;
-  }
-  .smol {
-    width: 30px !important;
-  }
-  .aboutpage > .text-box {
-    font-size: 20px;
-    margin-top: 15px;
-  }
-  .whoareyou {
-    font-size: 15px !important;
-  }
-  .socials-box {
-    bottom: 39px !important;
-  }
-}
-
 /* general */
 * {
   margin: 0;
@@ -194,7 +144,17 @@ h1 {
   right: 30px;
 }
 
-/* work and about clicks */
+/* work and about anchors */
+.click {
+  color: #000;
+  font-size: 36px;
+}
+.about-click {
+  transition: color 0.25s;
+}
+.about-click:hover {
+  color: #111bff;
+}
 .work-box {
   position: absolute;
   top: 30px;
@@ -205,19 +165,9 @@ h1 {
 .work-click {
   border: #111bff solid 2px;
   background-color: #111bff;
-  color: #fff !important;
+  color: #fff;
   border-radius: 100%;
   padding: 0 30px;
-}
-.click {
-  color: #000;
-  font-size: 36px;
-}
-.about-click {
-  transition: color 0.25s;
-}
-.about-click:hover {
-  color: #111bff;
 }
 
 /* icons */
@@ -236,7 +186,55 @@ i:hover {
   bottom: 0;
   left: 0;
 }
-
+@media screen and (max-width: 810px) {
+  .home-bg {
+    background-image: url(../images/home/bg-small.png);
+  }
+  .about-bg {
+    background-image: url(../images/about/bg-small.png);
+  }
+  .cursor,
+  .flower,
+  .pr {
+    display: none;
+  }
+  .first,
+  .last {
+    font-size: 30px;
+  }
+  .smol {
+    width: 35px;
+  }
+  .aboutpage > .text-box {
+    margin: 50px 30px 0;
+    row-gap: 20px;
+    font-size: 25px;
+    /* height: calc(100vh - 60%); */
+  }
+  em,
+  .click {
+    font-size: 25px;
+  }
+}
+@media screen and (max-height: 690px) {
+  .first,
+  .last {
+    font-size: 25px;
+  }
+  .smol {
+    width: 30px;
+  }
+  .aboutpage > .text-box {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .whoareyou {
+    font-size: 15px;
+  }
+  .socials-box {
+    bottom: 39px;
+  }
+}
 @keyframes pop {
   from {
     opacity: 0%;
