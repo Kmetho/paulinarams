@@ -61,7 +61,7 @@ body {
 
 /* IMAGES */
 .png {
-  position: absolute;
+  position: fixed;
   z-index: 2;
 }
 /* HOME IMAGE */
@@ -199,6 +199,9 @@ i:hover {
 }
 
 @media screen and (max-width: 1300px) {
+  .shade {
+    
+  }
 }
 @media screen and (max-width: 820px) {
   #mouse {
