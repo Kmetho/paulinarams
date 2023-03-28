@@ -238,6 +238,9 @@ i:hover {
     bottom: 30%;
     width: 60%;
   }
+  .stars {
+    width: fit-content;
+  }
   #mouse {
     visibility: hidden;
   }
