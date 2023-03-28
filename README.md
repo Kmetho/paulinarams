@@ -3,9 +3,6 @@ Build by Weronika Kmieć, a very determined autodidact front-end developer and d
 An amazing duo. 
 We are open for collaboration. 
 
-This is my first real deal website and first time using github pages. 
-And it's still in process, Paulina just wanted to see how it looks and here we are. 
-Thank you for appreciation.
 
 Thank you, guys, for your beautiful typefaces ♡ 
 
