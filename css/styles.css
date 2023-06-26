@@ -162,9 +162,9 @@ h1 {
 
 /* WORK ANCHOR */
 .work-click {
-  border: 3px solid #000;
+  border: 2.75px solid #000;
   border-radius: 50%;
-  padding: 3px 15px;
+  padding: 5px 20px;
   font-size: 36px;
   color: #000;
 }
