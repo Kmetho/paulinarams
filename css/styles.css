@@ -94,6 +94,11 @@ body {
   bottom: 30px;
   left: 30px;
 }
+.work-box {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
 .socials-box {
   bottom: 43px;
   right: 30px;
@@ -155,15 +160,17 @@ h1 {
   color: #111bff;
 }
 
-/* WORK SVG ANCHOR */
-.work-box {
-  position: fixed;
-  top: 30px;
-  right: 30px;
-  z-index: 7;
+/* WORK ANCHOR */
+.work-click {
+  border: 3px solid #000;
+  border-radius: 50%;
+  padding: 3px 15px;
+  font-size: 36px;
+  color: #000;
 }
 .work-click:hover {
-  fill: #111bff;
+  color: #111bff;
+  border-color: #111bff;
 }
 
 /* ICONS */
